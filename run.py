@@ -4,14 +4,12 @@ from imbot import *
 import json
 import requests
 import os
+import sys
 #from os.path import exists
-
-temp="./temp/"
-if not os.path.exists(temp):
-    os.makedirs(temp)
 
 #
 data_file='./src/my_list.json'
+steps_file='./src/google.json'
 
 # Opening JSON file
 f = open(data_file)
@@ -20,13 +18,41 @@ f = open(data_file)
 # a dictionary
 data = json.load(f)
 
-def get_poster(opt,data_file,temp):
+temp="./temp/"
+if data["temp"]=="true":
+    if not os.path.exists(temp):
+        os.makedirs(temp)
+
+try:
+    if sys.argv[1]=="-d":
+        if not os.path.exists(temp):
+            os.makedirs(temp)
+        types=["series","movies"]
+        for j in range(len(types)):
+            for i in range(len(data[types[j]])):
+                if not os.path.exists(temp+data[types[j]][i]['name']+".jpg"):
+                    with open(temp+data[types[j]][i]['name']+".jpg", 'wb') as handle:
+                        response = requests.get(data[types[j]][i]['poster_url'], stream=True)
+                        if not response.ok:
+                            print(response)
+                        for block in response.iter_content(1024):
+                            if not block:
+                                break
+                            handle.write(block)
+                    #print(f"The image has been downloaded from the link {data[types[j]][i]['poster_url']} in the path {temp+data[types[j]][i]['name']+'.jpg'}")
+except NameError as e:
+    print(e)
+    exit()
+
+
+
+def get_poster(opt,steps_file,data_file,temp):
     # :
     x=True
     for i in range(len(data[opt])):
-        if data[opt][i]['poster_url']=="" or (data["temp"]=="true" and not os.path.exists(temp+data[opt][i]['name']+".jpg")):
+        if data[opt][i]['poster_url']=="":# or (data["temp"]=="true" and not os.path.exists(temp+data[opt][i]['name']+".jpg")):
             if x==True:
-                p1=imbot("./src/google.json",headless=True,sleep_time=0.01,exec_path="chromium.sh")
+                p1=imbot(steps_file,headless=False,sleep_time=0.01,exec_path="chromium")
                 x=False
 
             ms_name=data[opt][i]['name']
@@ -57,7 +83,7 @@ def get_poster(opt,data_file,temp):
             if postertype!=".jpg" and postertype!=".png":
                 postertype="jpg"
 
-            if data["temp"]=="true":
+            if data["temp"]=="true" and not os.path.exists(temp+data[opt][i]['name']+".jpg"):
                 if not os.path.exists(temp+ms_name+postertype):
                     r = requests.get(poster)
                     with open(temp+ms_name+postertype, 'wb') as outfile:
@@ -71,8 +97,8 @@ def get_poster(opt,data_file,temp):
     if x==False:
         p1.end()
 
-get_poster("series",data_file,temp)
-get_poster("movies",data_file,temp)
+get_poster("series",steps_file,data_file,temp)
+get_poster("movies",steps_file,data_file,temp)
 
 # Closing file
 f.close()
