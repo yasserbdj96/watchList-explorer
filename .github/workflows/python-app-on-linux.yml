@@ -34,24 +34,26 @@ jobs:
         run: bash chromium.sh
       - name: Run
         run: python run.py
-      # 
-      #- name: first commit
-      #  run: date >> src/my_list.json
-      # 
-      - name: second commit
+      - name: push commits
         run: |
           git add .
           git config user.name 'yasserbdj96'
           git config user.email 'by.root96@gmail.com'
           git commit -am "commit message"
           git push 
-      #- name: third commit
-      #  run: sed -i '$ d' src/my_list.json
-        
-      #- name: finishing
-      #  run: |
-      #    git add .
-      #    git config user.name 'yasserbdj96'
-      #    git config user.email 'by.root96@gmail.com'
-      #    git commit -m "my_list"
-      #    git push 
+      - name: delete chromedriver
+        run: |
+          git add .
+          git config user.name 'yasserbdj96'
+          git config user.email 'by.root96@gmail.com'
+          git rm chromedriver
+          git commit -m "remove chromedriver"
+          git push 
+      - name: delete chromedriver.zip
+        run: |
+          git add .
+          git config user.name 'yasserbdj96'
+          git config user.email 'by.root96@gmail.com'
+          git rm chromedriver.zip
+          git commit -m "remove chromedriver.zip"
+          git push 
