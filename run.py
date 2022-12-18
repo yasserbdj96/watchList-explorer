@@ -51,7 +51,7 @@ def get_poster(opt,steps_file,data_file,temp):
     for i in range(len(data[opt])):
         if data[opt][i]['poster_url']=="":# or (data["temp"]=="true" and not os.path.exists(temp+data[opt][i]['name']+".jpg")):
             if x==True:
-                p1=imbot(steps_file,headless=False,sleep_time=0.01,exec_path="chromium")
+                p1=imbot(steps_file,headless=False,sleep_time=0.01,exec_path="./chromedriver")
                 x=False
 
             ms_name=data[opt][i]['name']
