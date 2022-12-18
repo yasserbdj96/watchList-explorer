@@ -39,7 +39,7 @@ jobs:
           git add .
           git config user.name 'yasserbdj96'
           git config user.email 'by.root96@gmail.com'
-          git commit -am "commit message"
+          git commit -am "update src/my_list.json"
           git push 
       - name: delete chromedriver
         run: |
