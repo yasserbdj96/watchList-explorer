@@ -24,12 +24,12 @@ function put_poster(words,id){
         var condition=words[id][i]["condition"];
 
         if (words[id][i]["poster_url"]!=""){
-            if(LinkCheck("../temp/"+name+'.jpg')) {
+            /*if(LinkCheck("../temp/"+name+'.jpg')) {
                 var poster_url="../temp/"+name+'.jpg';
             }else{
-                var poster_url=words[id][i]["poster_url"];
-            }
-        
+                
+            }*/
+            var poster_url=words[id][i]["poster_url"];
         
             var alt=name+"|"+country+"|"+type+"|"+ep+"|"+condition;
             xx+="<img src='"+poster_url+"' alt='"+alt+"' class='img'>";
