@@ -40,9 +40,8 @@ try:
                                 break
                             handle.write(block)
                     #print(f"The image has been downloaded from the link {data[types[j]][i]['poster_url']} in the path {temp+data[types[j]][i]['name']+'.jpg'}")
-except NameError as e:
-    print(e)
-    exit()
+except:
+    pass
 
 
 
