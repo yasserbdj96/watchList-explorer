@@ -1,5 +1,5 @@
 {
-    "temp": "false",
+    "temp": "true",
     "series": [
         {
             "name": "The.Smile.Has.Left.Your.Eyes",
@@ -8,7 +8,7 @@
             "type": "TV Series",
             "ep": "e09",
             "condition": "unfollowing",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BOTIzMzE2MzMtMDIzOS00YzNjLTgxNTMtZTY3MWFkMmU4ZTdhXkEyXkFqcGdeQXVyMzE4MDkyNTA@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": ""
         },
         {
             "name": "The.Good.Doctor",
@@ -17,7 +17,7 @@
             "type": "TV Series",
             "ep": "s01",
             "condition": "unfollowing",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTViMDJlYzEtOTUxNi00ZTU5LWI5MTYtMGViNTQ4NTVkYTMyXkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": ""
         },
         {
             "name": "voice",
@@ -26,7 +26,7 @@
             "type": "TV Series",
             "ep": "s1e11",
             "condition": "unfollowing",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjQ1OWRkOTQtNDk3Zi00NTczLWE3ZDgtYzgwMDY5NGFhODI0XkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": ""
         }
     ],
     "movies": [
@@ -35,7 +35,7 @@
             "year": "",
             "country": "",
             "type": "Movie",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": ""
         }
     ]
 }
