@@ -1,5 +1,5 @@
 # My Movies List
-This project is to review all the movies that I watched since 2018, after I put the name of the movie or series in the src/my_list.json file, the bot will search for the poster and put it on the site "https://yasserbdj96.github.io/mml/"
+This project is to review all the movies that I watched since 2018, after I put the name of the movie or series in the src/my_list.json file, the bot will search for the poster and put it on the site "https://yasserbdj96.github.io/MML/"
 
 
 This project just for fun!
