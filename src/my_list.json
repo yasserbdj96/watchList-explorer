@@ -4179,6 +4179,13 @@
             "country": "",
             "type": "Anime Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMDY4YmM0YjUtNTE0OC00NDgwLWE1ZmQtNDIyN2U2MjlhMjI2XkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_.jpg"
+        },
+         {
+            "name": "JUNG_E",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
         }
     ]
 }
