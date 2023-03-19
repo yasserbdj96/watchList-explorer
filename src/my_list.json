@@ -4171,7 +4171,7 @@
             "year": "2022",
             "country": "",
             "type": "Movie",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BOGVmNTlkNTYtNmFlZS00YTQyLWExODMtOGQ1NWIzZDIxNDIxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
         },
         {
             "name": "Sayonara no Asa ni Yakusoku no Hana wo Kazarou",
@@ -4180,12 +4180,12 @@
             "type": "Anime Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMDY4YmM0YjUtNTE0OC00NDgwLWE1ZmQtNDIyN2U2MjlhMjI2XkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_.jpg"
         },
-         {
+        {
             "name": "JUNG_E",
             "year": "2023",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BODQzZmE5NWUtODIyMi00MWVlLWJmMTYtNjAyN2ZjNGQ0ZmNkXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg"
         }
     ]
 }

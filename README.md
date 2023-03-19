@@ -1,5 +1,5 @@
-# My Movies List (MML)
-This project is to review all the movies that I watched since 2018, after I put the name of the movie or series in the src/my_list.json file, the bot will search for the poster and put it on the site "https://yasserbdj96.github.io/MML/"
+# Movie-Memoir:
+This project is to review all the movies that I watched since 2018, after I put the name of the movie or series in the src/my_list.json file, the bot will search for the poster and put it on the site "https://yasserbdj96.github.io/Movie-Memoir"
 
 
 This project just for fun!
@@ -19,6 +19,6 @@ This project just for fun!
     <a href="https://t.me/yasserbdj96">telegram</a> .
     <a href="https://gitter.im/yasserbdj96/yasserbdj96">gitter</a> .
     <a href="mailto:yasser.bdj96@gmail.com">e-mail</a> .
-    <a href="https://ko-fi.com/yasserbdj96">sponsor</a>
+    <a href="https://github.com/sponsors/yasserbdj96">sponsor</a>
   </samp>
 </p>

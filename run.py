@@ -43,8 +43,6 @@ try:
 except:
     pass
 
-
-
 def get_poster(opt,steps_file,data_file,temp):
     # :
     x=True
