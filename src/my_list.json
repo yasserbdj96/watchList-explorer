@@ -4193,6 +4193,13 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BNjcxOTJhZTEtMWFiYi00NTkwLTlkMzktZDQwMGQ0ZjM3YWU2XkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg"
+        },
+        {
+            "name": "Tenkuu no Shiro Laputa",
+            "year": "1986",
+            "country": "japan",
+            "type": "Anime Movie",
+            "poster_url": ""
         }
     ]
 }
