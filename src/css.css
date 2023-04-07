@@ -1,4 +1,146 @@
-.img{
-    height: 40px;
-    width: auto;
+html, body, input, div {
+    font-family: arial,sans-serif;
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    /*padding-left: 40px;*/
+    width: 50%;
+}
+  
+#display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*img {
+    margin: 10px;
+}*/
+
+.condition {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #777;
+}
+
+.ep {
+    position: absolute;
+    top: 10px;
+    /* opacity: 0; */
+    /*background: #ffaa26;*/
+    z-index: 10;
+    box-shadow: 0 1px 7px #00000099;
+    right: 7px;
+    transition: .2s all ease;
+    padding: 0;
+    /* width: 55px; */
+    /* height: 51px; */
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.test {
+    text-align: center;
+    margin: 20px;
+}
+
+.ribbon {
+    position: absolute;
+    top: 15px;
+    transition: .3s all ease;
+    width: 200px;
+    pointer-events: none;
+    left: -80px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 4px 11px;
+    color: #151111;
+    transform: rotate(-45deg);
+}
+
+/* Represents a task that has been stopped */
+.Stopped {
+    background-color: #FF0000;
+    color: #FFFFFF; /* white font color */
+}
+
+/* Represents a task that has been finished */
+.Finished {
+    background-color: #FFD700;
+    color: #000000; /* black font color */
+}
+
+/* Represents a task that is awaiting action */
+.Awaiting {
+    background-color: #FFA500;
+    color: #000000; /* black font color */
+}
+
+/* Represents a task that is currently being watched */
+.Watching {
+    background-color: #008000;
+    color: #FFFFFF; /* white font color */
+}
+
+
+.BlockItem {
+    /*width: calc( 100%/10 - 7px); */
+    /* display: inline-block; */
+    position: relative;
+    /* height: 220px; */
+    transition: .2s all ease;
+    vertical-align: top;
+    background: #fff;
+    margin: 0 2px 4px;
+    /* box-shadow: 0 1px 14px #00000073; */
+    /* height: 100%; */
+    overflow: hidden;
+    /* position: relative; */
+    z-index: 2;
+    /* background: #000; */
+    /* transition: .3s all ease; */
+}
+/*.FeaturedBLock {
+    /*width: calc(100% / 6 - 5px);*/
+    /*height: 370px;*/
+    /*float: right;*/
+/*}*/
+
+.BlockTitle:hover{
+    opacity: 1;
+}
+
+.BlockTitle {
+    position: absolute;
+    opacity: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s all ease;
+    background: linear-gradient(transparent, #000);
+    padding: 128px 14px 14px;
+    /*width: 100%;*/
+    color: #fff;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.BlockTitle {
+    font-size: 17px;
+    padding: 96px 14px 24px;
 }

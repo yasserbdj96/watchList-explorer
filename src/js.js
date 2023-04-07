@@ -1,65 +1,92 @@
-function LinkCheck(url){
-    var http = new XMLHttpRequest();
-    http.open('HEAD',url,false);
-    http.send();
-    return http.status!=404;
-}
+window.onload = function() {
+    function search() {
+        let query = document.getElementById("query").value.toLowerCase().replace(/\./g, " ");
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                let data = JSON.parse(this.responseText);
+                let results = [];
+                data.series.forEach(function(item) {
+                    let title = item.name.toLowerCase().replace(/\./g, " ");
+                    let year = item.year.toLowerCase();
+                    let country = item.country.toLowerCase();
+                    let type = item.type.toLowerCase();
+                    if (title.includes(query) || year.includes(query) || country.includes(query) || type.includes(query)) {
+                        results.push({
+                            url: item.poster_url,
+                            type: "serie",
+                            condition: item.condition,
+                            ep: item.ep,
+                            name: item.name,
+                            year: item.year
+                        });
+                        //results.push(item.poster_url);
+                    }
+                });
+                data.movies.forEach(function(item) {
+                    let title = item.name.toLowerCase().replace(/\./g, " ");
+                    let year = item.year.toLowerCase();
+                    let country = item.country.toLowerCase();
+                    let type = item.type.toLowerCase();
+                    if (title.includes(query) || year.includes(query) || country.includes(query) || type.includes(query)) {
+                        results.push({
+                            url: item.poster_url,
+                            type: "movie",
+                            name: item.name,
+                            year: item.year
+                        });
+                        //results.push(item.poster_url);
+                    }
+                });
+                let display = document.getElementById("display");
+                display.innerHTML = "";
+                /*results.forEach(function(url) {
+                    let img = document.createElement("img");
+                    img.src = url;
+                    img.height=250;
+                    display.appendChild(img);
+                });*/
+                results.forEach(function(result) {
+                    let div = document.createElement("div");
+                    div.classList.add("poster");
+                    div.classList.add("BlockItem");
+                    div.classList.add("FeaturedBLock");
+                  
+                    let img = document.createElement("img");
+                    img.src = result.url;
+                    img.height = 250;
+                  
+                    let BlockTitle = document.createElement("div");
+                    BlockTitle.textContent = result.name.replace(/\./g, " ")+" "+result.year;
+                    BlockTitle.classList.add("BlockTitle");
+                    div.appendChild(BlockTitle);
 
-function put_poster(words,id){
-    var podata= document.getElementById(id);
-
-    var xx="";
-    for (let i = 0; i < words[id].length; i++) {
-        
-        var name=words[id][i]["name"];
-        var country=words[id][i]["country"];
-        var type=words[id][i]["type"];
-
-        if(id=="series"){
-            var ep=words[id][i]["ep"];
-        }else{
-            var ep="";
-        }
-        
-        var condition=words[id][i]["condition"];
-
-        if (words[id][i]["poster_url"]!=""){
-            /*if(LinkCheck("../temp/"+name+'.jpg')) {
-                var poster_url="../temp/"+name+'.jpg';
-            }else{
-                
-            }*/
-            var poster_url=words[id][i]["poster_url"];
-        
-            var alt=name+"|"+country+"|"+type+"|"+ep+"|"+condition;
-            xx+="<img src='"+poster_url+"' alt='"+alt+"' class='img'>";
-        }
+                    if (result.type == "serie") {
+                      let conditionSpan = document.createElement("span");
+                      conditionSpan.textContent = result.condition;
+                      conditionSpan.classList.add("ribbon");
+                      conditionSpan.classList.add("condition");
+                      conditionSpan.classList.add(result.condition);
+                      div.appendChild(conditionSpan);
+                  
+                      let epSpan = document.createElement("span");
+                      epSpan.textContent = result.ep;
+                      epSpan.classList.add("ep");
+                      epSpan.classList.add(result.condition);
+                      div.appendChild(epSpan);
+                    }
+                  
+                    div.appendChild(img);
+                    display.appendChild(div);
+                });
+            }
+        };
+        xhttp.open("GET", "my_list.json", true);
+        xhttp.send();
     }
-    podata.innerHTML=xx;
-    //alert(words["series"][0]["name"]);
+
+    document.getElementById("query").addEventListener("keyup", function(event) {
+        event.preventDefault();
+        search();
+    });
 }
-
-function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            //callback(rawFile.responseText);
-            var data=rawFile.responseText;
-            var words=JSON.parse(data);
-
-            //
-            put_poster(words,"series");
-            put_poster(words,"movies");
-
-        }
-    }
-    rawFile.send(null);
-}
-
-//usage:
-readTextFile("./my_list.json", function(text){
-    var data = JSON.parse(text);
-    console.log(data);
-});
