@@ -299,7 +299,7 @@
             "poster_url": "https://m.media-amazon.com/images/M/MV5BNWVlMGRlZWItMTg5OC00OTQyLWEzODEtN2IxYTU4N2QwOTNiXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg"
         },
         {
-            "name": "Descendents.of.theSun",
+            "name": "Descendents.of.the.Sun",
             "year": "",
             "country": "South Korea",
             "type": "TV Series",
@@ -390,20 +390,20 @@
         },
         {
             "name": "The.Night.Of",
-            "year": "",
+            "year": "2016",
             "country": "",
             "type": "TV Series",
             "ep": "s01e08",
             "condition": "Finished",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA5Mzg0MTcyOF5BMl5BanBnXkFtZTgwMTE2NTIwNzM@._V1_.jpg"
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjQyOTgxMDI0Nl5BMl5BanBnXkFtZTgwOTE4MzczOTE@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Kanojo.Okarishimasu",
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "e12",
-            "condition": "Finished",
+            "ep": "s02e02",
+            "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
         },
         {
@@ -434,7 +434,7 @@
             "poster_url": "https://en-images.kinorium.com/movie/1080/2625354.jpg?1618828664"
         },
         {
-            "name": "Akami.ga.kill",
+            "name": "Akame.ga.kill",
             "year": "",
             "country": "japan",
             "type": "Anime",
@@ -450,6 +450,33 @@
             "ep": "e148",
             "condition": "Awaiting",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BYjEwODViOGUtNzdjZC00OGM4LWFjNjYtOGIyYThiMzE5OGM0XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "mieruko.chan",
+            "year": "",
+            "country": "japan",
+            "type": "Anime",
+            "ep": "s01e12",
+            "condition": "Awaiting",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BYTJmMWU2ZDMtODM5MC00ZWVhLWE3NzMtNjBiMzNkZWRmZTljXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Ousama.Ranking",
+            "year": "",
+            "country": "japan",
+            "type": "Anime",
+            "ep": "s01e23",
+            "condition": "Awaiting",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjg3M2U1ZDQtYjJjOS00NWQyLTliNzQtZjQwN2YzMzEzNzBjXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_.jpg"
+        },
+        {
+            "name": "Uzaki-chan.wa.Asobitai!",
+            "year": "",
+            "country": "japan",
+            "type": "Anime",
+            "ep": "s01e12",
+            "condition": "Watching",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNThkZmQxZDAtYmQ5Mi00N2Y2LTlmNTgtYjA2ZGY5ODE5MzcyXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "dr.stone",
@@ -582,7 +609,7 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "s01e11",
+            "ep": "s02e12",
             "condition": "Awaiting",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMGM2MzA5YzYtODc0Ni00ZjU4LWI4ZmUtZGJjNGU0ODY1MGJkXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg"
         },
@@ -624,12 +651,12 @@
         },
         {
             "name": "see",
-            "year": "",
+            "year": "2019",
             "country": "",
             "type": "TV Series",
             "ep": "s1e08",
             "condition": "Watching",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BNWUyYWM3YzgtNDAxMS00ZTMxLTlhMGYtYjRjYTAxN2U5MzBiXkEyXkFqcGdeQXVyMjkzMTAyNDM@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTkyOGI1YTYtZjNiYS00NTFjLTlkNzAtMGVlOTFlOWU1M2EyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
         },
         {
             "name": "warrior.2019",
@@ -699,7 +726,7 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "s04p2e04",
+            "ep": "s04p2e01",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BOWRhZmQxNDMtYmRhYS00ZDA3LWI0OTQtOTA3Yjc1M2I1ZTdmXkEyXkFqcGdeQXVyMTA3MzQ4MTcw._V1_.jpg"
         },
@@ -807,7 +834,7 @@
             "year": "",
             "country": "spain",
             "type": "TV Series",
-            "ep": "s01",
+            "ep": "s01e11",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BM2MyNjFhZGYtMmI1ZC00Nzk0LWIwZjktMzMxZTk1YTQ2NWNhXkEyXkFqcGdeQXVyNDQ4NTM2ODE@._V1_FMjpg_UX1000_.jpg"
         },
@@ -816,7 +843,7 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "e11",
+            "ep": "s02e05",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BN2U3MThiNzktN2NlNC00NWM5LWJmNWQtYjA2Mjg5Nzc2M2E4XkEyXkFqcGdeQXVyODMyNTM0MjM@._V1_.jpg"
         },
@@ -825,7 +852,7 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "e07",
+            "ep": "s01e08",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMWE4OWY2ODYtMzUwOC00YjlkLTljN2QtMGI4YThhZDFlZmI3XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
         },
@@ -834,7 +861,7 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "e06",
+            "ep": "s01e06",
             "condition": "Watching",
             "poster_url": "https://cdn.myanimelist.net/images/about_me/ranking_items/14491260-d6b58cc2-1fde-423f-8e21-9a97bb6fa356.jpg?t=1656876578"
         },
