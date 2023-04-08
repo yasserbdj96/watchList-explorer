@@ -1,0 +1,17 @@
+{
+    "short_name": "Movies & Series Search",
+    "name": "Movies & Series Search",
+    "description": "This project is to review all the movies that I watched since 2018.",
+    "start_url": "./",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "icons": [
+        {
+            "src": "./empty_logo.png",
+            "type": "image/png",
+            "sizes": "256x256",
+            "purpose": "any maskable"
+        }
+    ]
+}

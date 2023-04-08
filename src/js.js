@@ -1,4 +1,7 @@
 window.onload = function() {
+    let page = 1;
+    const perPage = 20;
+
     function search() {
         let query = document.getElementById("query").value.toLowerCase().replace(/\./g, " ");
         let xhttp = new XMLHttpRequest();
@@ -20,7 +23,6 @@ window.onload = function() {
                             name: item.name,
                             year: item.year
                         });
-                        //results.push(item.poster_url);
                     }
                 });
                 data.movies.forEach(function(item) {
@@ -35,18 +37,14 @@ window.onload = function() {
                             name: item.name,
                             year: item.year
                         });
-                        //results.push(item.poster_url);
                     }
                 });
                 let display = document.getElementById("display");
-                display.innerHTML = "";
-                /*results.forEach(function(url) {
-                    let img = document.createElement("img");
-                    img.src = url;
-                    img.height=250;
-                    display.appendChild(img);
-                });*/
-                results.forEach(function(result) {
+                if (page === 1) {
+                    display.innerHTML = "";
+                }
+                let slicedResults = results.slice((page - 1) * perPage, page * perPage);
+                slicedResults.forEach(function(result) {
                     let div = document.createElement("div");
                     div.classList.add("poster");
                     div.classList.add("BlockItem");
@@ -87,6 +85,14 @@ window.onload = function() {
 
     document.getElementById("query").addEventListener("keyup", function(event) {
         event.preventDefault();
+        page = 1;
         search();
+    });
+
+    window.addEventListener("scroll", function() {
+        if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+            page++;
+            search();
+        }
     });
 }
