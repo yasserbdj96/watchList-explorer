@@ -1,3 +1,17 @@
+/*
+   |                                                          |
+ --+----------------------------------------------------------+--
+   |   Code by : yasserbdj96                                  |
+   |   Email   : yasser.bdj96@gmail.com                       |
+   |   Github  : https://github.com/yasserbdj96               |
+   |   BTC     : bc1q2dks8w8uurca5xmfwv4jwl7upehyjjakr3xga9   |
+ --+----------------------------------------------------------+--  
+   |        all posts #yasserbdj96 ,all views my own.         |
+ --+----------------------------------------------------------+--
+   |                                                          |
+*/
+
+/*START{*/
 html, body, input, div {
     font-family: arial,sans-serif;
 }
@@ -156,6 +170,4 @@ input[type="text"] {
     height: 100%; /* Set the height of the image to fill the container */
     object-fit: cover; /* Scale the image to fill the container without stretching */
   }
-
-
-  
+/*}END.*/
