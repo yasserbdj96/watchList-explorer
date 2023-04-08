@@ -15,9 +15,11 @@ window.onload = function() {
     const perPage = 20;
     function search() {
         let query = document.getElementById("query").value.toLowerCase().replace(/\./g, " ");
+        let display = document.getElementById("display");
         if (query == "help"){
-            const display = document.getElementById('display');
             display.innerHTML = 'This help will be available soon';
+        } else if (query == "") {
+            display.innerHTML = '';
         } else {
             let xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
@@ -54,9 +56,11 @@ window.onload = function() {
                             });
                         }
                     });
-                    let display = document.getElementById("display");
                     if (page === 1) {
                         display.innerHTML = "";
+                    }
+                    if (results ==""){
+                        display.innerHTML = "No Result!";
                     }
                     let slicedResults = results.slice((page - 1) * perPage, page * perPage);
                     slicedResults.forEach(function(result) {
