@@ -7,7 +7,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "e09",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -16,7 +16,7 @@
             "country": "USA",
             "type": "TV Series",
             "ep": "s01",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -25,7 +25,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s1e11",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -34,7 +34,7 @@
             "country": "UK",
             "type": "TV Series",
             "ep": "s01e02",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -43,7 +43,7 @@
             "country": "USA",
             "type": "TV Series",
             "ep": "s01e04",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -52,7 +52,7 @@
             "country": "USA",
             "type": "TV Series",
             "ep": "s01e05",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -61,7 +61,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e04",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -70,7 +70,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e21",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -79,7 +79,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e08",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -88,7 +88,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e10",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -97,7 +97,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e10",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -106,7 +106,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s03e01",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -115,7 +115,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s03e02",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -124,7 +124,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s03e04",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -133,7 +133,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e22",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -142,7 +142,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s02",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -151,7 +151,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s02",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -160,7 +160,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -169,7 +169,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e08",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -178,16 +178,16 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e06",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
             "name": "the.protector",
             "year": "",
             "country": "turkey",
-            "type": "",
+            "type": "TV Series",
             "ep": "s02e01",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -196,7 +196,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s02e01",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -205,7 +205,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s02e02",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -214,7 +214,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s02e05",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -223,7 +223,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s03e10",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -232,7 +232,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s05e12",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -241,7 +241,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01e06",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -250,7 +250,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01e04",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -259,7 +259,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e09",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -268,7 +268,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01e11",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -277,7 +277,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "e44",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -286,7 +286,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01",
-            "condition": "unfollowing",
+            "condition": "Stopped",
             "poster_url": ""
         },
         {
@@ -295,16 +295,16 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "e16",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
-            "name": "Descendents.of.theSun",
+            "name": "Descendents.of.the.Sun",
             "year": "",
             "country": "South Korea",
             "type": "TV Series",
             "ep": "e16",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -313,7 +313,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "e20",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -322,7 +322,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "e32",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -331,16 +331,16 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "e32",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
             "name": "Chernobyl",
-            "year": "",
-            "country": "",
+            "year": "2019",
+            "country": "USA UK",
             "type": "TV Series",
             "ep": "s01e05",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -349,7 +349,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s01e18",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -358,7 +358,7 @@
             "country": "spain",
             "type": "TV Series",
             "ep": "s05e10",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -367,7 +367,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s04e08",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -376,7 +376,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s08e06",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -385,16 +385,16 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01e12",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
             "name": "The.Night.Of",
-            "year": "",
+            "year": "2016",
             "country": "",
             "type": "TV Series",
             "ep": "s01e08",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -402,8 +402,8 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "e12",
-            "condition": "Ended",
+            "ep": "s02e02",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -412,7 +412,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s01e12",
-            "condition": "Ended",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -421,7 +421,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "e26",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -430,16 +430,16 @@
             "country": "japan",
             "type": "Anime",
             "ep": "e13",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
-            "name": "Akami.ga.kill",
+            "name": "Akame.ga.kill",
             "year": "",
             "country": "japan",
             "type": "Anime",
             "ep": "e24",
-            "condition": "Ended",
+            "condition": "Finished",
             "poster_url": ""
         },
         {
@@ -448,7 +448,34 @@
             "country": "japan",
             "type": "Anime",
             "ep": "e148",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
+            "poster_url": ""
+        },
+        {
+            "name": "mieruko.chan",
+            "year": "",
+            "country": "japan",
+            "type": "Anime",
+            "ep": "s01e12",
+            "condition": "Awaiting",
+            "poster_url": ""
+        },
+        {
+            "name": "Ousama.Ranking",
+            "year": "",
+            "country": "japan",
+            "type": "Anime",
+            "ep": "s01e23",
+            "condition": "Awaiting",
+            "poster_url": ""
+        },
+        {
+            "name": "Uzaki-chan.wa.Asobitai!",
+            "year": "",
+            "country": "japan",
+            "type": "Anime",
+            "ep": "s01e12",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -456,8 +483,8 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "s02e10",
-            "condition": "Season_Waiting",
+            "ep": "s03e01",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -466,7 +493,7 @@
             "country": "USA",
             "type": "TV Series",
             "ep": "s05e10",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -475,7 +502,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s01e10",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -484,7 +511,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "e26",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -493,7 +520,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01e13",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -502,7 +529,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "e170",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -511,7 +538,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01e12",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -520,7 +547,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s1e13",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -529,7 +556,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01e12",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -538,7 +565,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e09",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -547,7 +574,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s01",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -556,7 +583,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s01e09",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -565,7 +592,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s02e11",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -574,7 +601,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s02p2e12",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -582,8 +609,8 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "s01e11",
-            "condition": "Season_Waiting",
+            "ep": "s02e12",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -592,7 +619,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s2e11",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -601,7 +628,7 @@
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s01-e06",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
@@ -610,25 +637,25 @@
             "country": "japan",
             "type": "Anime",
             "ep": "e12",
-            "condition": "Season_Waiting",
+            "condition": "Awaiting",
             "poster_url": ""
         },
         {
-            "name": "ONE.PIECE",
-            "year": "",
+            "name": "One.Piece",
+            "year": "1999",
             "country": "japan",
             "type": "Anime",
             "ep": "e1003",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
             "name": "see",
-            "year": "",
+            "year": "2019",
             "country": "",
             "type": "TV Series",
             "ep": "s1e08",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -637,7 +664,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e10",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -646,7 +673,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s01e15",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -655,7 +682,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e10",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -664,7 +691,7 @@
             "country": "spain",
             "type": "TV Series",
             "ep": "s01",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -673,7 +700,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s03e01",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -682,7 +709,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s02e08",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -691,7 +718,7 @@
             "country": "japan",
             "type": "Anime",
             "ep": "s02e18",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -699,8 +726,8 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "s04p2e04",
-            "condition": "Currently_Watching",
+            "ep": "s04p2e01",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -709,7 +736,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s03e02",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -718,7 +745,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s05e10",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -727,7 +754,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s06e02",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -736,7 +763,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s06e13",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -745,25 +772,25 @@
             "country": "",
             "type": "TV Series",
             "ep": "s10e08",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
             "name": "Undercover",
-            "year": "",
+            "year": "2021",
             "country": "South Korea",
             "type": "TV Series",
             "ep": "e05",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
             "name": "Kingdom",
             "year": "",
-            "country": "japan",
+            "country": "china",
             "type": "Anime",
             "ep": "s4e06",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -772,7 +799,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e02",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -781,7 +808,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e05",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -790,7 +817,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e03",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -799,7 +826,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e10",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -807,8 +834,8 @@
             "year": "",
             "country": "spain",
             "type": "TV Series",
-            "ep": "s01",
-            "condition": "Currently_Watching",
+            "ep": "s01e11",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -816,8 +843,8 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "e11",
-            "condition": "Currently_Watching",
+            "ep": "s02e05",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -825,8 +852,8 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "e07",
-            "condition": "Currently_Watching",
+            "ep": "s01e08",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -834,8 +861,8 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "e06",
-            "condition": "Currently_Watching",
+            "ep": "s01e06",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -844,7 +871,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e02",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -853,7 +880,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e04",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
@@ -862,16 +889,16 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e04",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         },
         {
             "name": "alchemy.of.souls",
-            "year": "2022",
+            "year": "",
             "country": "South Korea",
             "type": "TV Series",
             "ep": "s01e03",
-            "condition": "Currently_Watching",
+            "condition": "Watching",
             "poster_url": ""
         }
     ],
@@ -1024,8 +1051,8 @@
             "poster_url": ""
         },
         {
-            "name": "Undercover.Grandpa.2017",
-            "year": "",
+            "name": "Undercover Grandpa",
+            "year": "2017",
             "country": "",
             "type": "Movie",
             "poster_url": ""
@@ -2431,8 +2458,8 @@
             "poster_url": ""
         },
         {
-            "name": "Wandering.Interstellar.2019",
-            "year": "",
+            "name": "Wandering.Interstellar",
+            "year": "2019",
             "country": "",
             "type": "Movie",
             "poster_url": ""
@@ -4083,15 +4110,15 @@
             "poster_url": ""
         },
         {
-            "name": "luck.2022",
-            "year": "",
+            "name": "luck",
+            "year": "2022",
             "country": "",
             "type": "Movie",
             "poster_url": ""
         },
         {
-            "name": "arachnophobia.1990",
-            "year": "",
+            "name": "arachnophobia",
+            "year": "1990",
             "country": "",
             "type": "Movie",
             "poster_url": ""
@@ -4104,29 +4131,29 @@
             "poster_url": ""
         },
         {
-            "name": "Minions.The.Rise.Of.Gru.2022",
-            "year": "",
+            "name": "Minions.The.Rise.Of.Gru",
+            "year": "2022",
             "country": "",
             "type": "Movie",
             "poster_url": ""
         },
         {
-            "name": "day.shift.2022",
-            "year": "",
+            "name": "day.shift",
+            "year": "2022",
             "country": "",
             "type": "Movie",
             "poster_url": ""
         },
         {
-            "name": "secret.headquarters.2022",
-            "year": "",
+            "name": "secret.headquarters",
+            "year": "2022",
             "country": "",
             "type": "Movie",
             "poster_url": ""
         },
         {
-            "name": "top.gun.maverick.2022",
-            "year": "",
+            "name": "top.gun.maverick",
+            "year": "2022",
             "country": "",
             "type": "Movie",
             "poster_url": ""
@@ -4168,6 +4195,48 @@
         },
         {
             "name": "Thor.Love.And.Thunder",
+            "year": "2022",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Sayonara no Asa ni Yakusoku no Hana wo Kazarou",
+            "year": "",
+            "country": "",
+            "type": "Anime Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "JUNG E",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Operation Fortune: Ruse de guerre",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Tenkuu no Shiro Laputa",
+            "year": "1986",
+            "country": "japan",
+            "type": "Anime Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "avatar the way of water",
+            "year": "2022",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Black Panther Wakanda Forever",
             "year": "2022",
             "country": "",
             "type": "Movie",
