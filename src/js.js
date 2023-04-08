@@ -51,6 +51,7 @@ window.onload = function() {
                     div.classList.add("FeaturedBLock");
                   
                     let img = document.createElement("img");
+                    img.classList.add("poster-container");
                     img.src = result.url;
                     img.height = 250;
                   

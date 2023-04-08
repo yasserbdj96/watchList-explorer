@@ -127,7 +127,7 @@ input[type="text"] {
 .BlockTitle {
     position: absolute;
     opacity: 0;
-    bottom: 0;
+    bottom: 4px;
     right: 0;
     left: 0;
     transition: .3s all ease;
@@ -144,3 +144,15 @@ input[type="text"] {
     font-size: 17px;
     padding: 96px 14px 24px;
 }
+
+.poster-container {
+    width: 167px; /* Set a fixed width for the container */
+    height: 250px; /* Set a fixed height for the container */
+    overflow: hidden; /* Hide any overflow from the image */
+  }
+  
+  .poster-container img {
+    width: 100%; /* Set the width of the image to fill the container */
+    height: 100%; /* Set the height of the image to fill the container */
+    object-fit: cover; /* Scale the image to fill the container without stretching */
+  }
