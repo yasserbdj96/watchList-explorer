@@ -787,7 +787,7 @@
         {
             "name": "Kingdom",
             "year": "",
-            "country": "chinese",
+            "country": "china",
             "type": "Anime",
             "ep": "s4e06",
             "condition": "Watching",
@@ -4234,6 +4234,13 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Black Panther Wakanda Forever",
+            "year": "2022",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
         }
     ]
 }

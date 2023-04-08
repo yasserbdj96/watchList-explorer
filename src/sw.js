@@ -16,10 +16,8 @@ var CACHE_VERSION='app-v20';
 var CACHE_FILES=[
     './',
     'css.css',
-    'google.json',
     'index.js',
     'manifest.webmanifest',
-    'my_list.json',
     'empty_logo.png',
     'index.html',
     'js.js',
