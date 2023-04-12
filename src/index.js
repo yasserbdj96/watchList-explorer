@@ -65,10 +65,10 @@ el.textContent = 'PWA Install';
 el.classList.add('download_pwa');
 
 // ✅ Add element to body:
-document.body.appendChild(el);
+//document.body.appendChild(el);
 
 var download_pwa = document.getElementsByClassName('download_pwa');
-
+/*
 if (download_pwa.length > 0){
     // Code to handle install prompt on desktop
     let deferredPrompt;
@@ -103,7 +103,7 @@ if (download_pwa.length > 0){
     });
   });
 }
-
+*/
 
 /*function pwa_uninstall(){
   
