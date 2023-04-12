@@ -68,7 +68,8 @@ window.onload = function() {
                         div.classList.add("poster");
                         div.classList.add("BlockItem");
                         div.classList.add("FeaturedBLock");
-                  
+                        div.setAttribute('onclick', `showModal('${result.url}')`);
+
                         let img = document.createElement("img");
                         img.classList.add("poster-container");
                         img.src = result.url;
@@ -117,4 +118,25 @@ window.onload = function() {
         }
     });
 }
+
+function showModal(src) {
+    // Get the modal and modal content elements
+    var modal = document.querySelector(".modal");
+    var modalContent = document.querySelector(".modal-content");
+  
+    // Set the source of the modal image to the clicked image
+    modalContent.src = src;
+  
+    // Display the modal
+    modal.style.display = "block";
+  
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+  
+
 //}END.

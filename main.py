@@ -1,16 +1,19 @@
-#!/bin/bash
-#   |                                                          |
-# --+----------------------------------------------------------+--
-#   |   Code by : yasserbdj96                                  |
-#   |   Email   : yasser.bdj96@gmail.com                       |
-#   |   Github  : https://github.com/yasserbdj96               |
-#   |   BTC     : bc1q2dks8w8uurca5xmfwv4jwl7upehyjjakr3xga9   |
-# --+----------------------------------------------------------+--  
-#   |        all posts #yasserbdj96 ,all views my own.         |
-# --+----------------------------------------------------------+--
-#   |                                                          |
+import eel
+import os
 
-#START{
-#sudo apt install php
-php -S 127.0.0.1:80 -t src
-#}END.
+# Set web files folder and optionally specify which file types to check for
+eel.init(f'{os.path.dirname(os.path.realpath(__file__))}/src')
+
+# Define a function that will be called when the button is clicked
+@eel.expose
+def button_click():
+    # Get the value of the input field
+    text = eel.get_text()()
+    # Print the value to the console
+    print("Input value:", text)
+
+
+host_ip="127.0.0.1"
+host_port=8080
+# Start the Eel app
+eel.start("index.html",host=host_ip,port=host_port,mode='default')
