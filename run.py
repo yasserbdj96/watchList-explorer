@@ -70,6 +70,15 @@ def get_poster(opt,steps_file,data_file,temp):
             ms_year=data[opt][i]['year']
 
             search=ms_name.replace("."," ")+f" {ms_year} {ms_country} {ms_type} poster imdb"
+            s = search
+            words = s.split()
+            result = ""
+            for g in range(len(words)):
+                if g == 0:
+                    result += words[g]
+                else:
+                    result += " " + words[g]
+            search=result
             poster=p1.run("search",get_this=search)[0]
 
             if "jpeg" in poster or "webp" in poster or "data:image/" in poster:
@@ -97,7 +106,6 @@ def get_poster(opt,steps_file,data_file,temp):
                     r = requests.get(poster)
                     with open(temp+ms_name+postertype, 'wb') as outfile:
                         outfile.write(r.content)
-
             data[opt][i]['poster_url']=poster
 
             # Writing to sample.json
