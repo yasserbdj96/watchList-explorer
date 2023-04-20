@@ -655,7 +655,7 @@
             "country": "",
             "type": "TV Series",
             "ep": "s1e08",
-            "condition": "Watching",
+            "condition": "Stopped",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMTkyOGI1YTYtZjNiYS00NTFjLTlkNzAtMGVlOTFlOWU1M2EyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
         },
         {
@@ -879,8 +879,8 @@
             "year": "2022",
             "country": "",
             "type": "TV Series",
-            "ep": "s01e04",
-            "condition": "Watching",
+            "ep": "s01e08",
+            "condition": "Awaiting",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMmVlODAyNTAtODc3Yi00MjFhLTk5MTktNWIwOTUzY2M2ZDc5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
         },
         {
@@ -888,8 +888,8 @@
             "year": "2022",
             "country": "",
             "type": "TV Series",
-            "ep": "s01e04",
-            "condition": "Watching",
+            "ep": "s01e10",
+            "condition": "Awaiting",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BZDBkZjRiNGMtZGU2My00ODdkLWI0MGYtNGU4MmJjN2MzOTkxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
         },
         {

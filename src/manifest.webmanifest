@@ -1,7 +1,7 @@
 {
-    "short_name": "Movies & Series Search",
-    "name": "Movies & Series Search",
-    "description": "This project is to review all the movies that I watched since 2018.",
+    "short_name": "WatchList Explorer",
+    "name": "WatchList Explorer",
+    "description": "The aim of this project is to document my reviews of all the movies, series, and anime that I have watched since 2018.",
     "start_url": "./",
     "display": "standalone",
     "theme_color": "#000000",
