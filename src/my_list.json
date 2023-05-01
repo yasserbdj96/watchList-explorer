@@ -906,8 +906,8 @@
             "year": "",
             "country": "",
             "type": "TV Series",
-            "ep": "s01e05",
-            "condition": "Watching",
+            "ep": "s01e10",
+            "condition": "Awaiting",
             "poster_url": "https://www.themoviedb.org/t/p/w500/noRVimjdx6PwPBCVikhExYqogsX.jpg"
         }
     ],
@@ -4355,6 +4355,34 @@
             "country": "South Korea",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BZDNhMTQyYzktY2NlZS00YzI0LTg3NTQtNjJhMDhmYWFmZTMyXkEyXkFqcGdeQXVyNjI4NDY5ODM@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Asura",
+            "year": "2012",
+            "country": "japan",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNTk3Y2RiMTctNmY1ZC00YThiLTg3NjItYmQ0YTZkNWY0ZWIwXkEyXkFqcGdeQXVyNjQyMzA3MTM@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "supercell",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNWI5ZGUzNDAtOGY0Yy00NzU0LWE0NmYtNGNlOGI0YjVlZTk4XkEyXkFqcGdeQXVyODQ0NjU1OTE@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Ant-Man and the Wasp Quantumania",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BODZhNzlmOGItMWUyYS00Y2Q5LWFlNzMtM2I2NDFkM2ZkYmE1XkEyXkFqcGdeQXVyMTU5OTA4NTIz._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "cabin fever",
+            "year": "2002",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTEwNTU3NzM2NDJeQTJeQWpwZ15BbWU2MDY2ODcyNw@@._V1_FMjpg_UX1000_.jpg"
         }
     ]
 }
