@@ -890,7 +890,7 @@
             "type": "TV Series",
             "ep": "s01e10",
             "condition": "Awaiting",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BZDBkZjRiNGMtZGU2My00ODdkLWI0MGYtNGU4MmJjN2MzOTkxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZjBiOGIyY2YtOTA3OC00YzY1LThkYjktMGRkYTNhNTExY2I2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
         },
         {
             "name": "alchemy.of.souls",
@@ -909,6 +909,15 @@
             "ep": "s01e10",
             "condition": "Awaiting",
             "poster_url": "https://www.themoviedb.org/t/p/w500/noRVimjdx6PwPBCVikhExYqogsX.jpg"
+        },
+        {
+            "name": "Prison Break",
+            "year": "",
+            "country": "",
+            "type": "TV Series",
+            "ep": "s05e09",
+            "condition": "Finished",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTg3NTkwNzAxOF5BMl5BanBnXkFtZTcwMjM1NjI5MQ@@._V1_FMjpg_UX1000_.jpg"
         }
     ],
     "movies": [
@@ -4387,7 +4396,7 @@
         {
             "name": "The Gangster the Cop the Devil",
             "year": "2019",
-            "country": "",
+            "country": "South Korea",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BYTdjNDZmNjgtZTI2Mi00OWJkLWI3ODItNzA5YjQ4MTczMTdjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
         },
