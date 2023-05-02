@@ -55,13 +55,13 @@ try:
 except:
     pass
 
-def get_poster(opt,steps_file,data_file,temp):
+def get_poster(opt,steps_file,data_file,temp,headlessis=True):
     # :
     x=True
     for i in range(len(data[opt])):
         if data[opt][i]['poster_url']=="":# or (data["temp"]=="true" and not os.path.exists(temp+data[opt][i]['name']+".jpg")):
             if x==True:
-                p1=imbot(steps_file,headless=True,sleep_time=0.01,exec_path="chromedriver")
+                p1=imbot(steps_file,headless=headlessis,sleep_time=0.01,exec_path="chromedriver")
                 x=False
 
             ms_name=data[opt][i]['name']
@@ -114,8 +114,14 @@ def get_poster(opt,steps_file,data_file,temp):
     if x==False:
         p1.end()
 
-get_poster("series",steps_file,data_file,temp)
-get_poster("movies",steps_file,data_file,temp)
+
+try:
+    headlessis=sys.argv[1]
+    get_poster("series",steps_file,data_file,temp,headlessis)
+    get_poster("movies",steps_file,data_file,temp,headlessis)
+except:
+    get_poster("series",steps_file,data_file,temp)
+    get_poster("movies",steps_file,data_file,temp)
 
 # Closing file
 f.close()
