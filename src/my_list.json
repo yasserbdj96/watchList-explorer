@@ -4538,14 +4538,14 @@
             "year": "2012",
             "country": "",
             "type": "Movie",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA5MTE1MjQyNV5BMl5BanBnXkFtZTcwODI4NDMwNw@@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA5MTE1MjQyNV5BMl5BanBnXkFtZTcwODI4NDMwNw@@._V1_.jpg"
         },
         {
             "name": "Jumanji",
             "year": "1995",
             "country": "",
             "type": "Movie",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BZTk2ZmUwYmEtNTcwZS00YmMyLWFkYjMtNTRmZDA3YWExMjc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZTk2ZmUwYmEtNTcwZS00YmMyLWFkYjMtNTRmZDA3YWExMjc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "The Lost World Jurassic Park",
@@ -4559,7 +4559,7 @@
             "year": "2017",
             "country": "",
             "type": "Movie",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BMWUxNjZiNTAtZmMwMi00MmYxLTkxZGEtZWE1MzU0OWFjOTNhXkEyXkFqcGdeQXVyNzk1MzI3MTI@._V1_FMjpg_UX1000_.jpg"
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMWUxNjZiNTAtZmMwMi00MmYxLTkxZGEtZWE1MzU0OWFjOTNhXkEyXkFqcGdeQXVyNzk1MzI3MTI@._V1_.jpg"
         },
         {
             "name": "Jurassic World",
@@ -4601,7 +4601,35 @@
             "year": "2017",
             "country": "",
             "type": "Movie",
-            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_.jpg"
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Dungeons Dragons Honor Among Thieves",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZWM5MTQ3NDMtNGFiMS00Y2E5LWE2ZTUtNzM5MTcyZjM3ODRiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Plane",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BYWJkZGMxYjUtNDdkMC00MDQxLWI2M2QtZmM2ZGIyODYyZDc3XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+        },
+        {
+            "name": "Ghosted",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNGMzYWZlYmYtNTcyMC00ZGVjLThjN2ItMjY4MjkwN2NlMjYwXkEyXkFqcGdeQXVyOTU0NjY1MDM@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "The Tank",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BOWViZWFlMzgtN2ZjYi00NjIzLWI4MjAtZTE5YWY2ZGRjN2U4XkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_FMjpg_UX1000_.jpg"
         }
     ]
 }
