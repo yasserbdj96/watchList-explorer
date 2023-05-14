@@ -26,6 +26,15 @@
                     if (this.readyState == 4 && this.status == 200) {
                         let data = JSON.parse(this.responseText);
                         let results = [];
+                        data.series.sort((a, b) => {
+                            if (a.condition < b.condition) {
+                              return -1;
+                            } else if (a.condition > b.condition) {
+                              return 1;
+                            } else {
+                              return 0;
+                            }
+                        });
                         data.series.forEach(function(item) {
                             let title = item.name.toLowerCase().replace(/\./g, " ");
                             let year = item.year.toLowerCase();
