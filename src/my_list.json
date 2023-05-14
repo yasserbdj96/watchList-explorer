@@ -686,11 +686,11 @@
             "poster_url": "https://m.media-amazon.com/images/M/MV5BNjIxMWMzMzctYmZkYy00OTkzLWFlMWUtMjc3ZDFmYzQ3YmVkXkEyXkFqcGdeQXVyNjU2ODM5MjU@._V1_FMjpg_UX1000_.jpg"
         },
         {
-            "name": "Elite.2018",
-            "year": "",
+            "name": "Elite",
+            "year": "2018",
             "country": "spain",
             "type": "TV Series",
-            "ep": "s01",
+            "ep": "s02e01",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BYWY2N2JlN2EtYTIzNC00ODgxLTkwZDMtMjc0YjlmOTQ3M2JmXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg"
         },
@@ -918,6 +918,15 @@
             "ep": "s05e09",
             "condition": "Finished",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMTg3NTkwNzAxOF5BMl5BanBnXkFtZTcwMjM1NjI5MQ@@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Black Knight",
+            "year": "2023",
+            "country": "South Korea",
+            "type": "TV Series",
+            "ep": "s01e04",
+            "condition": "Watching",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMWQ5MDI5ZGEtOGRjNi00ZDlmLWFlZjctZTE0NWZiYjdhYjRmXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg"
         }
     ],
     "movies": [
@@ -3479,7 +3488,7 @@
         {
             "name": "Miss.Danger",
             "year": "2020",
-            "country": "chinese",
+            "country": "china",
             "type": "Movie",
             "poster_url": "https://pic4.iqiyipic.com/image/20211116/64/27/v_163213474_m_601_en_260_360.webp"
         },
@@ -4777,6 +4786,13 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMGJkNDJlZWUtOGM1Ny00YjNkLThiM2QtY2ZjMzQxMTIxNWNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+        },
+        {
+            "name": "The Myth",
+            "year": "2005",
+            "country": "china",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BOTYxYzExYjEtODJkNC00NTBkLWE0YmMtOWIxMTk1ZWVhYTcwXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_FMjpg_UX1000_.jpg"
         }
     ]
 }
