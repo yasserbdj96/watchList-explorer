@@ -19,7 +19,7 @@
             if (query == "help"){
                 display.innerHTML = 'This help will be available soon';
             } else if (query == "") {
-                display.innerHTML = '';
+                display.innerHTML = "To discover what you're looking for, enter the name of a movie/serie, the year it was released, or the name of the country it was made in.";
             } else {
                 let xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function() {
