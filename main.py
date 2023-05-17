@@ -1,19 +1,31 @@
 import eel
 import os
+from imbot import *
 
 # Set web files folder and optionally specify which file types to check for
 eel.init(f'{os.path.dirname(os.path.realpath(__file__))}/src')
 
-# Define a function that will be called when the button is clicked
+def get_poster(p1,m_s_name,type,country,year):
+    search=m_s_name
+    if year!="None":
+        search+=" "+year
+    if country!="None":
+        search+=" "+country
+    search+=f" {type} poster imdb"
+    #print(search)
+    poster=p1.run("search",get_this=search)[0]
+    if "jpeg" in poster or "webp" in poster or "data:image/" in poster:
+        poster=p1.run("search2",get_this=search)[0]
+    return poster
+
 @eel.expose
-def button_click():
-    # Get the value of the input field
-    text = eel.get_text()()
-    # Print the value to the console
-    print("Input value:", text)
+def check_poster(m_s_name,type,country,year):
+    poster=get_poster(p1,m_s_name,type,country,year)
+    return poster
 
-
+p1=imbot('./src/google.json',headless=True,sleep_time=0.01,exec_path="chromedriver")
 host_ip="127.0.0.1"
 host_port=8080
 # Start the Eel app
 eel.start("index.html",host=host_ip,port=host_port,mode='default')
+p1.end()

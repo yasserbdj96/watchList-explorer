@@ -16,17 +16,11 @@
         function search(page) {
             let query = document.getElementById("query").value.toLowerCase().replace(/\./g, " ");
             let display = document.getElementById("display");
-            let addnew = document.getElementById("addnew");
-            if (query == "--help"){
-                addnew.style.display="none";
+            if (query == "help"){
                 display.innerHTML = 'This help will be available soon';
             } else if (query == "") {
-                addnew.style.display="none";
                 display.innerHTML = "To discover what you're looking for, enter the name of a movie/serie, the year it was released, or the name of the country it was made in.";
-            }else if (query == "--addnew") {
-                addnew.style.display="block";
             } else {
-                addnew.style.display="none";
                 let xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
@@ -95,7 +89,7 @@
                         if (page === 1) {
                             display.innerHTML = "";
                         }
-                        if ((results =="") && (query.substring(0, 2)!=="--")){
+                        if (results ==""){
                             display.innerHTML = "No Result!";
                         }
                         let slicedResults = results.slice((page - 1) * perPage, page * perPage);
@@ -195,122 +189,5 @@
         }
       }
       
-function check_poster(){
-    var loader=document.getElementById("loader");
-    var isname=document.getElementById("isname");
-    //var istype=document.getElementById("istype");
-    var poster_img=document.getElementById("poster_img");
-    var poster=document.getElementById("poster");
-
-    /**/
-    var countrySelect = document.getElementById('countrySelect');
-    var selectedIndex = countrySelect.selectedIndex;
-    if (selectedIndex !== -1) {
-        var selectedOption = countrySelect.options[selectedIndex];
-        //var selectedValue = selectedOption.value;
-        var selectedText = selectedOption.textContent;
-    } else {
-        var selectedValue = "";
-        var selectedText = "";
-    }
-    /**/
-    var istype = document.getElementById('istype');
-    var selectedIndex2 = istype.selectedIndex;
-    if (selectedIndex2 !== -1) {
-        var selectedOption = istype.options[selectedIndex2];
-        //var mselectedValue = selectedOption.value;
-        var mselectedText = selectedOption.textContent;
-    } else {
-        var mselectedValue = "";
-        var mselectedText = "";
-    }
-
-    /**/
-    var year = document.getElementById('yearSelect');
-    var selectedIndex3 = year.selectedIndex;
-    if (selectedIndex3 !== -1) {
-        var selectedOption = year.options[selectedIndex3];
-        //var yselectedValue = selectedOption.value;
-        var yselectedText = selectedOption.textContent;
-    } else {
-        var yselectedValue = "";
-        var yselectedText = "";
-    }
-
-    loader.style.display="block";
-    poster.style.display="none";
-    /*
-    if (istype.checked) {
-        istype="serie";
-    } else {
-        istype="movie";
-    }*/
-    //alert(mselectedText);
-    eel.check_poster(isname.value,mselectedText,selectedText,yselectedText)(
-        function(ret){
-            loader.style.display="none";
-            poster.style.display="block";
-            poster_img.src=ret;
-        })
-}
-
-
-
-function populateSelectSortedByName() {
-    // Load the JSON file
-    fetch('countries.json')
-      .then(response => response.json())
-      .then(data => {
-        // Sort the data by name
-        data.sort((a, b) => a.name.localeCompare(b.name));
-        
-        // Call a function to populate the select element
-        populateSelect(data);
-      })
-      .catch(error => console.error('Error:', error));
-  
-    function populateSelect(data) {
-      const selectElement = document.getElementById('countrySelect');
-  
-      // Create a "None" option and add it as the first element
-      const noneOption = document.createElement('option');
-      noneOption.value = "";
-      noneOption.textContent = "None";
-      selectElement.appendChild(noneOption);
-  
-      // Iterate over the JSON data and create options
-      data.forEach(item => {
-        const option = document.createElement('option');
-        option.value = item.code;
-        option.textContent = item.name;
-        selectElement.appendChild(option);
-      });
-    }
-  }
-
-
-function populateYearSelect() {
-    const selectElement = document.getElementById('yearSelect');
-    const currentYear = new Date().getFullYear();
-  
-    // Create a "None" option and add it as the first element
-    const noneOption = document.createElement('option');
-    noneOption.value = "";
-    noneOption.textContent = "None";
-    selectElement.appendChild(noneOption);
-  
-    for (let year = currentYear; year >= 1900; year--) {
-      const option = document.createElement('option');
-      option.value = year;
-      option.textContent = year;
-      selectElement.appendChild(option);
-    }
-}
-  
-// Call the function to populate the year select list
-populateYearSelect();
-  
-
-// Call the function to populate the select element with sorted options
-populateSelectSortedByName();
-//}END.
+    
+    //}END.

@@ -27,39 +27,9 @@
     <!--home-->
     <div id="home" class="center">
         <h1>WatchList Explorer</h1>
-        <input style="min-width: 90%;" type="text" id="query" placeholder="Try searching for 'One Piece', 'The Great Wall 2016', or type 'help' for more info">
+        <input type="text" id="query" placeholder="Try searching for 'One Piece', 'The Great Wall 2016', or type 'help' for more info">
         <br><br>
         <div id="display"></div>
-        <div id="addnew">
-            <input type="text" id="isname" placeholder="movie name">
-
-            <select id="yearSelect"></select>
-
-            <select id="istype">
-                <option value="movie">Movie</option>
-                <option value="serie">Serie</option>
-                <option value="serie">Anime</option>
-            </select>
-              
-            <select id="countrySelect"></select>
-
-            <!--label class="checkbox-container">
-                <input type="checkbox" id="istype">
-                <span class="checkmark"></span>
-                serie
-            </label-->
-            <button class="custom-button" onclick="check_poster()">check</button>
-            <br>
-            <br>
-            <div id="loader">
-                <div class="loader-container">
-                    <div class="sicrul"></div>
-                </div>
-            </div>
-            <div id="poster">
-            <img style="max-width: 200px;" src="" id="poster_img">
-            </div>
-        </div>
         <div class="modal">
             <img class="modal-content" src="" alt="Modal Image">
         </div>
