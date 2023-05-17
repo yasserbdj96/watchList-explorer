@@ -195,64 +195,37 @@
         }
       }
       
-function check_poster(){
-    var loader=document.getElementById("loader");
-    var isname=document.getElementById("isname");
-    //var istype=document.getElementById("istype");
-    var poster_img=document.getElementById("poster_img");
-    var poster=document.getElementById("poster");
+function check_poster() {
+    var loader = document.getElementById("loader");
+    var isname = document.getElementById("isname");
+    var poster_img = document.getElementById("poster_img");
+    var poster = document.getElementById("poster");
 
-    /**/
     var countrySelect = document.getElementById('countrySelect');
     var selectedIndex = countrySelect.selectedIndex;
-    if (selectedIndex !== -1) {
-        var selectedOption = countrySelect.options[selectedIndex];
-        //var selectedValue = selectedOption.value;
-        var selectedText = selectedOption.textContent;
-    } else {
-        var selectedValue = "";
-        var selectedText = "";
-    }
-    /**/
+    var selectedText = selectedIndex !== -1 ? countrySelect.options[selectedIndex].textContent : "";
+
     var istype = document.getElementById('istype');
     var selectedIndex2 = istype.selectedIndex;
-    if (selectedIndex2 !== -1) {
-        var selectedOption = istype.options[selectedIndex2];
-        //var mselectedValue = selectedOption.value;
-        var mselectedText = selectedOption.textContent;
-    } else {
-        var mselectedValue = "";
-        var mselectedText = "";
-    }
+    var mselectedText = selectedIndex2 !== -1 ? istype.options[selectedIndex2].textContent : "";
 
-    /**/
     var year = document.getElementById('yearSelect');
     var selectedIndex3 = year.selectedIndex;
-    if (selectedIndex3 !== -1) {
-        var selectedOption = year.options[selectedIndex3];
-        //var yselectedValue = selectedOption.value;
-        var yselectedText = selectedOption.textContent;
-    } else {
-        var yselectedValue = "";
-        var yselectedText = "";
-    }
+    var yselectedText = selectedIndex3 !== -1 ? year.options[selectedIndex3].textContent : "";
 
-    loader.style.display="block";
-    poster.style.display="none";
-    /*
-    if (istype.checked) {
-        istype="serie";
-    } else {
-        istype="movie";
-    }*/
-    //alert(mselectedText);
-    eel.check_poster(isname.value,mselectedText,selectedText,yselectedText)(
-        function(ret){
-            loader.style.display="none";
-            poster.style.display="block";
-            poster_img.src=ret;
-        })
+    loader.style.display = "block";
+    poster.style.display = "none";
+
+    eel.check_poster(isname.value, mselectedText, selectedText, yselectedText)(function (ret) {
+        loader.style.display = "none";
+        poster.style.display = "block";
+        poster_img.src = ret;
+        poster_img.addEventListener("click", function() {
+            showModal(ret);
+        });
+    });
 }
+
 
 
 
