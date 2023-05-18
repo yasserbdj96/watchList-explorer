@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+#   |                                                          |
+# --+----------------------------------------------------------+--
+#   |   Code by : yasserbdj96                                  |
+#   |   Email   : yasser.bdj96@gmail.com                       |
+#   |   Github  : https://github.com/yasserbdj96               |
+#   |   BTC     : bc1q2dks8w8uurca5xmfwv4jwl7upehyjjakr3xga9   |
+# --+----------------------------------------------------------+--  
+#   |        all posts #yasserbdj96 ,all views my own.         |
+# --+----------------------------------------------------------+--
+#   |                                                          |
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The aim of this project is to document my reviews of all the movies, series, and anime that I have watched since 2018.">
+    <title>WatchList Explorer</title>
+    <link rel="icon" href="./empty_logo.png">
+    <script src="./index.js" defer></script>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+    <!--home-->
+    <div id="home" class="center">
+        <h1>WatchList Explorer</h1>
+        <input style="min-width: 90%;" type="text" id="query" placeholder="Try searching for 'One Piece', 'The Great Wall 2016', or type 'help' for more info">
+        <br><br>
+        <div id="display"></div>
+        <div id="addnew">
+            <input type="text" id="isname" placeholder="movie name">
+
+            <select id="yearSelect"></select>
+
+            <select id="istype">
+                <option value="movie">Movie</option>
+                <option value="serie">Serie</option>
+                <option value="serie">Anime</option>
+            </select>
+              
+            <select id="countrySelect"></select>
+
+            <!--label class="checkbox-container">
+                <input type="checkbox" id="istype">
+                <span class="checkmark"></span>
+                serie
+            </label-->
+            <button class="custom-button" onclick="check_poster()">check</button>
+            <br>
+            <br>
+            <div id="loader">
+                <div class="loader-container">
+                    <div class="sicrul"></div>
+                </div>
+            </div>
+            <div id="poster">
+            <img style="max-width: 200px;" src="" id="poster_img">
+            </div>
+        </div>
+        <div class="modal">
+            <img class="modal-content" src="" alt="Modal Image">
+        </div>
+    </div>
+    <script src="js.js"></script>
+    <script type="text/javascript" src="eel.js"></script>
+</body>
+</html>
