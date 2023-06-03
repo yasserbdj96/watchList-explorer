@@ -483,7 +483,7 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "s03e01",
+            "ep": "s03e09",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BYmU2MzEyMjAtOTQ5Yy00NGMxLTg0NmItMTQ0ZTM5OGY0NjUzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
         },
@@ -942,8 +942,8 @@
             "year": "",
             "country": "South Korea",
             "type": "TV Series",
-            "ep": "s01e07",
-            "condition": "Watching",
+            "ep": "s01e12",
+            "condition": "Finished",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BZDIzOTNjNzUtODQ5Mi00OWExLWFjYzEtZGY4ZGNiMjc1MmY4XkEyXkFqcGdeQXVyMTU5NjMxOTI0._V1_.jpg"
         }
     ],
@@ -4832,6 +4832,90 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMWQ1ZTI1ZjEtM2RkNC00MDIxLWI2NTMtMjgyN2ZkZjYwMDYwXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Hypnotic",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNmNmNWNiMjUtZmYyMC00OWVhLThmMTItNjkxYzU4Yzk2NTdlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "John Wick",
+            "year": "2014",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg"
+        },
+        {
+            "name": "John Wick Chapter 2",
+            "year": "2017",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjE2NDkxNTY2M15BMl5BanBnXkFtZTgwMDc2NzE0MTI@._V1_.jpg"
+        },
+        {
+            "name": "John.Wick.Chapter.4",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_QL75_UX190_CR0,0,190,281_.jpg"
+        },
+        {
+            "name": "Mission: Impossible III",
+            "year": "2006",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BOThhNTA1YjItYzk2Ny00M2Y1LWJlYWUtZDQyZDU0YmY5Y2M5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Mission: Impossible - Ghost Protocol",
+            "year": "2011",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_.jpg"
+        },
+        {
+            "name": "Mission: Impossible - Rogue Nation",
+            "year": "2015",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BOTFmNDA3ZjMtN2Y0MC00NDYyLWFlY2UtNTQ4OTQxMmY1NmVjXkEyXkFqcGdeQXVyNTg4NDQ4NDY@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Final Destination",
+            "year": "2000",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZTI0NGM2OGYtNzVmMi00NGQ2LTk2MDAtN2RmYjIzMGRkZGYxXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Final Destination 2",
+            "year": "2003",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNDQ2MjkyMDA5N15BMl5BanBnXkFtZTYwMjkxNzk5._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Final Destination 3",
+            "year": "2006",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZDEyYTRjNTgtYmI4Yy00MTFmLWEzYTUtOGNjZGZmNzEyMjZmXkEyXkFqcGdeQXVyMTEwNDU1MzEy._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "The Final Destination",
+            "year": "2009",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNzY1NmU2MDgtMDQxNC00MTQ4LTgxMWQtYWNkOWMyZWFlODZiXkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_QL75_UX190_CR0,0,190,281_.jpg"
+        },
+        {
+            "name": "Final Destination 5",
+            "year": "2011",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMzg2OWEwZTMtZTVmMS00NzNiLTlkYTgtZTE1ODVjYWJlZmVkXkEyXkFqcGdeQXVyNzE4Mzg0NzI@._V1_FMjpg_UX1000_.jpg"
         }
     ]
 }

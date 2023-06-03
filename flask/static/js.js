@@ -194,12 +194,13 @@
           }
         }
       }
-      
+
 function check_poster() {
         var loader = document.getElementById("loader");
         var isname = document.getElementById("isname");
         var poster_img = document.getElementById("poster_img");
         var poster = document.getElementById("poster");
+        var add = document.getElementById("add");
     
         var countrySelect = document.getElementById('countrySelect');
         var selectedIndex = countrySelect.selectedIndex;
@@ -231,9 +232,15 @@ function check_poster() {
             poster.style.display = "block";
             poster_img.src = data;
             poster_img.addEventListener("click", function() {showModal(data);});
+            add.style.display="block";
+            add.addEventListener("click", function() {addto(data);});
         }).catch(error => console.error(error));
 }
     
+
+function addto(data){
+    alert("soon");
+}
 
 function populateSelectSortedByName() {
     // Load the JSON file
