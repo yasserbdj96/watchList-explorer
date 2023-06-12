@@ -483,7 +483,7 @@
             "year": "",
             "country": "japan",
             "type": "Anime",
-            "ep": "s03e09",
+            "ep": "s03e10",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BYmU2MzEyMjAtOTQ5Yy00NGMxLTg0NmItMTQ0ZTM5OGY0NjUzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
         },
@@ -933,7 +933,7 @@
             "year": "",
             "country": "South Korea",
             "type": "TV Series",
-            "ep": "s02e01",
+            "ep": "s02e06",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BZmUwMGI4M2QtYmRlYy00NDQ1LThjNDAtYTI4NDNiNDg5MDViXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
         },
@@ -5273,6 +5273,20 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BODU5ODMyMzg2MV5BMl5BanBnXkFtZTgwMTA2MTcxMjE@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "the black phone",
+            "year": "2022",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMWQxOGJlNTUtYTc1YS00NDkyLWExZjItMTFiYWEzMjAzYTdjXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "fast x",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNzZmOTU1ZTEtYzVhNi00NzQxLWI5ZjAtNWNhNjEwY2E3YmZjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg"
         }
     ]
 }
