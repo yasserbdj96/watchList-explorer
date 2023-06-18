@@ -1,5 +1,6 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, jsonify
 from imbot import *
+import os
 
 app = Flask(__name__)
 
@@ -28,8 +29,15 @@ def check_poster():
     poster = get_poster(p1, m_s_name, type, country, year)
     return poster
 
+
+@app.route('/json_file')
+def serve_json_file():
+    with open('../my_list.json') as f:
+        data = json.load(f)
+    return jsonify(data)
+
 if __name__ == '__main__':
-    p1 = imbot('./google.json', headless=True, sleep_time=0.01, exec_path="chromedriver")
+    p1 = imbot('../google.json', headless=True, sleep_time=0.01, exec_path="chromedriver")
     app.run(debug=True)
     p1.end()
 

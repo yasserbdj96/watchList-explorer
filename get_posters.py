@@ -119,14 +119,12 @@ def update_poster_data(steps_file, data_file):
     f.close()
 
 
-
-
-data_file='./flask/static/my_list.json'
-steps_file='./flask/google.json'
+steps_file='./google.json'
+data_file='./my_list.json'
 update_poster_data(steps_file, data_file)
 
-data_file='./eel/src/my_list.json'
-steps_file='./eel/src/google.json'
-update_poster_data(steps_file, data_file)
+#data_file='./eel/src/my_list.json'
+#steps_file='./eel/src/google.json'
+#update_poster_data(steps_file, data_file)
 
 #}END.

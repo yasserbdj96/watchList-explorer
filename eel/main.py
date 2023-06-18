@@ -23,7 +23,13 @@ def check_poster(m_s_name,type,country,year):
     poster=get_poster(p1,m_s_name,type,country,year)
     return poster
 
-p1=imbot('./src/google.json',headless=True,sleep_time=0.01,exec_path="chromedriver")
+@eel.expose
+def read_json_file(ss=True):
+    with open("../my_list.json") as file:
+        data = json.load(file)
+    return data
+
+p1=imbot('../google.json',headless=True,sleep_time=0.01,exec_path="chromedriver")
 host_ip="127.0.0.1"
 host_port=8080
 # Start the Eel app

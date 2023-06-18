@@ -28,6 +28,8 @@
             } else {
                 addnew.style.display="none";
                 let xhttp = new XMLHttpRequest();
+                xhttp.open('GET', '/json_file', true);
+
                 xhttp.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
                         let data = JSON.parse(this.responseText);
@@ -146,7 +148,7 @@
                         
                     }
                 };
-                xhttp.open("GET", "/static/my_list.json", true);
+                //xhttp.open("GET", "../my_list.json", true);
                 xhttp.send();
             }
         }
