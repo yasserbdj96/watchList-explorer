@@ -287,7 +287,7 @@
                         
                     }
                 };
-                xhttp.open("GET", "my_list.json", true);
+                xhttp.open("GET", "https://raw.githubusercontent.com/yasserbdj96/watchList-explorer/main/my_list.json", true);
                 xhttp.send();
             }
         }
