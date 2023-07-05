@@ -7228,6 +7228,27 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMTgyMzc4ODU3NV5BMl5BanBnXkFtZTcwNjk5Mzc1MQ@@._V1_.jpg"
+        },
+        {
+            "name": "Planet of the Apes",
+            "year": "2001",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BY2RlMDhlY2MtMjQ1Zi00NzI5LTgxOTgtZjliNWMzYTY3NWZkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Rise of the Planet of the Apes",
+            "year": "2011",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAyNDY2NzQ2MF5BMl5BanBnXkFtZTcwNjE3Njk5NQ@@._V1_.jpg"
+        },
+        {
+            "name": "War for the Planet of the Apes",
+            "year": "2017",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNmRiZDNmMWYtNmE2YS00M2JhLThiZjItMTYyNTU3MThkNTRlXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg"
         }
     ]
 }
