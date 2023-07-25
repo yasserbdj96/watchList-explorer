@@ -12,7 +12,7 @@
 //START{
     window.onload = function() {
         let page = 1;
-        const perPage = 20;
+        const perPage = 40;
         function search(page) {
             let query = document.getElementById("query").value.toLowerCase().replace(/\./g, " ");
             let display = document.getElementById("display");
