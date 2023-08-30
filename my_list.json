@@ -962,7 +962,7 @@
             "type": "Anime",
             "ep": "s01e03",
             "condition": "Watching",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZmI0NjljYzAtNGFjOC00NGMwLWEyNzYtYzFkYzY3ZWM2Y2MxXkEyXkFqcGdeQXVyMjMxMDM2NjY@._V1_.jpg"
         },
         {
             "name": "mouse",
@@ -971,7 +971,7 @@
             "type": "TV Series",
             "ep": "s01e03",
             "condition": "Watching",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMWFhN2M4MzAtOGUxYi00YzVhLWI0NDUtMzQ0MTFjMGU2NGIwXkEyXkFqcGdeQXVyNDU4MDQ0MjM@._V1_.jpg"
         }
     ],
     "movies": [
@@ -7462,7 +7462,7 @@
             "year": "2023",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZTNiNDA4NmMtNTExNi00YmViLWJkMDAtMDAxNmRjY2I2NDVjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
         }
     ]
 }
