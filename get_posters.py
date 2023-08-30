@@ -18,7 +18,6 @@ import os
 import sys
 from imbot import *
 
-
 def update_poster_data(steps_file, data_file):
     # Opening JSON files
     with open(data_file) as f:
@@ -55,7 +54,7 @@ def update_poster_data(steps_file, data_file):
         for i in range(len(data[opt])):
             if data[opt][i]['poster_url'] == "":  # or (data["temp"]=="true" and not os.path.exists(temp+data[opt][i]['name']+".jpg")):
                 if x == True:
-                    p1 = imbot(steps_file, headless=headlessis, sleep_time=0.01, exec_path="chromedriver")
+                    p1 = imbot(steps_file, headless=headlessis, sleep_time=0.01)
                     x = False
 
                 ms_name = data[opt][i]['name']
