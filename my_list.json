@@ -979,8 +979,13 @@
             "country": "",
             "type": "TV Series",
             "ep": "s01e08",
+<<<<<<< HEAD
             "condition": "Awaiting",
             "poster_url": ""
+=======
+            "condition": "Watching",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BYzczMzllN2UtNDJmOS00MmE5LWE2MWYtNGEwODcwMDc2M2YyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL75_UY281_CR6,0,190,281_.jpg"
+>>>>>>> dd20f296e8cb99df19b7544c24fc8dc54dd78d50
         }
     ],
     "movies": [
@@ -7478,7 +7483,7 @@
             "year": "2023",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTM2NTU1ZTktNjc4YS00NjNhLWE4NmYtOTM2YjFjOGUzNmYzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
         }
     ]
 }
