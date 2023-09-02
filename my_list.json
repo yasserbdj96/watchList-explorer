@@ -972,6 +972,15 @@
             "ep": "s01e03",
             "condition": "Watching",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMWFhN2M4MzAtOGUxYi00YzVhLWI0NDUtMzQ0MTFjMGU2NGIwXkEyXkFqcGdeQXVyNDU4MDQ0MjM@._V1_.jpg"
+        },
+        {
+            "name": "One Piece",
+            "year": "2023",
+            "country": "",
+            "type": "TV Series",
+            "ep": "s01e08",
+            "condition": "Watching",
+            "poster_url": ""
         }
     ],
     "movies": [
@@ -7463,6 +7472,13 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BZTNiNDA4NmMtNTExNi00YmViLWJkMDAtMDAxNmRjY2I2NDVjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Meg 2 The Trench",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
         }
     ]
 }
