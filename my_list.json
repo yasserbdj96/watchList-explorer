@@ -7486,6 +7486,34 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BY2M0ZGEwMGQtNzMxOC00OTU2LWExZmUtMTA5N2RhMDZlY2JiXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Hidden Strike",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Bird Box Barcelona",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "the moon",
+            "year": "2023",
+            "country": "South Korea",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Elemental",
+            "year": "2023",
+            "country": "",
+            "type": "Movie Animation",
+            "poster_url": ""
         }
     ]
 }
