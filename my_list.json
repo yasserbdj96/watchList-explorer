@@ -7542,6 +7542,55 @@
             "country": "2023",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMmM1YWQ3ZDQtM2IwMS00OTQ4LTg5OTAtZTRjZWYwMWU2YmVjXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg"
+        },
+        {
+            "name": "Concrete.Utopia",
+            "year": "2023",
+            "country": "South Korea",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Badland.Hunters",
+            "year": "2024",
+            "country": "South Korea",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Mission.Impossible.Dead.Reckoning.Part.One",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Retribution",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Expend4bles",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Oppenheimer",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
+        },
+        {
+            "name": "Saw.X",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": ""
         }
     ]
 }
