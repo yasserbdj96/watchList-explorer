@@ -7548,56 +7548,84 @@
             "year": "2023",
             "country": "South Korea",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNGM2ZTdmNDItMzk1Zi00NjAxLWE5MmUtNTFjMDg1YThkZDA1XkEyXkFqcGdeQXVyNjI4NDY5ODM@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Badland.Hunters",
             "year": "2024",
             "country": "South Korea",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BYTNiYmEyNmMtMzI4OS00OWEyLTg2N2EtNTE1YzgxZmNiOTA4XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Mission.Impossible.Dead.Reckoning.Part.One",
             "year": "2023",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BYzFiZjc1YzctMDY3Zi00NGE5LTlmNWEtN2Q3OWFjYjY1NGM2XkEyXkFqcGdeQXVyMTUyMTUzNjQ0._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Retribution",
             "year": "2023",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMmI1ZDVlN2UtOGY2NS00NDMyLWI0ODctZTIwZmYyMDFlZDVjXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg"
         },
         {
             "name": "Expend4bles",
             "year": "2023",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMDFhYjc2NmUtNDBlOC00NDE5LTk5YWYtYmM4ZmMxNTUxMGNjXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Oppenheimer",
             "year": "2023",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Saw.X",
             "year": "2023",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMmJhYjBkMzgtZGIwMC00YTAzLWE4NTQtYzVkNDVmYjIzODI0XkEyXkFqcGdeQXVyODQxMTI4MjM@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "The.Beekeeper",
             "year": "2024",
             "country": "",
             "type": "Movie",
-            "poster_url": ""
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BYjZmODc5YmQtNjA2Mi00OTIwLWI5OWMtMzgwNGI2NDczNWZlXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg"
+        },
+        {
+            "name": "Rebel.Moon.Part.One.A.Child.of.Fire",
+            "year": "2023",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BYzlhNzBmYjUtNjRmZC00MDg3LWE4NDMtZDNjODUwNTljMzhlXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Rebel.Moon.Part.Two.The.Scargiver",
+            "year": "2024",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BYmQ2ODgyZjMtMmQyMy00ZWRhLTllOGUtZDI3MDkzNjFhZWQ2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Kung.Fu.Panda.4",
+            "year": "2024",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZGIwYzVkZDItYTQxMC00YzhiLTk1ZDItMDVhZDI5M2UxMjM4XkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg"
+        },
+        {
+            "name": "Ghostbusters.Frozen.Empire",
+            "year": "2024",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BNGE5MWJmZWYtN2ZlMi00ZjY1LTlhYTUtMzQ2Y2IxZWQyYTA2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
         }
     ]
 }
