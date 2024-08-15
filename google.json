@@ -2,16 +2,16 @@
     "url":"https://www.google.com/search?q=yasserbdj96&udm=2",
     "search":{
         "operations":[
-           {"element_by":"xpath","element_code":"/html/body/div[2]/div[2]/form/div[1]/div[1]/div[2]/div/div[3]/div[1]/div","opt":"click"},
-           {"element_by":"xpath","element_code":"/html/body/div[2]/div[2]/form/div[1]/div[1]/div[2]/div/div[2]/textarea","opt":"put","arg_data":"get_this"},
-           {"element_by":"xpath","element_code":"/html/body/div[2]/div[2]/form/div[1]/div[1]/div[2]/button","opt":"click"},
-           {"element_by":"xpath","element_code":"/html/body/div[4]/div/div[15]/div/div[2]/div[2]/div/div/div/div/div[1]/div/div/div[1]/div[2]/h3/a/div/div/div/g-img/img","opt":"click","sleep":5},
+           {"element_by":"xpath","element_code":"/html/body/div[2]/div[2]/form/div[1]/div[1]/div[2]/div/div[3]/div[1]/div","opt":"click","sleep":1},
+           {"element_by":"xpath","element_code":"/html/body/div[2]/div[2]/form/div[1]/div[1]/div[2]/div/div[2]/textarea","opt":"put","arg_data":"get_this","sleep":1},
+           {"element_by":"xpath","element_code":"/html/body/div[2]/div[2]/form/div[1]/div[1]/div[2]/button","opt":"click","sleep":3},
+           {"element_by":"xpath","element_code":"/html/body/div[3]/div/div[15]/div/div[2]/div[2]/div/div/div/div/div[1]/div/div/div[1]/div[2]/h3/a/div/div/div/g-img/img","opt":"click","sleep":5},
            {"element_by":"xpath","element_code":"/html/body/div[6]/div/div/div/div/div/div/c-wiz/div/div[2]/div[2]/div/div[2]/c-wiz/div/div[3]/div[1]/a/img[1]","opt":"get","data":"src","sleep":15}
         ]
     },
     "search2":{
         "operations":[
-           {"element_by":"xpath","element_code":"/html/body/div[6]/div/div/div/div/div/div/c-wiz/div/div[2]/div[2]/div/div[2]/c-wiz/div/div[1]/div/div[2]/button[2]","opt":"click","sleep":5},
+           {"element_by":"xpath","element_code":"/html/body/div[3]/div/div[15]/div/div[2]/div[2]/div/div/div/div/div[1]/div/div/div[2]/div[2]/h3/a/div/div/div/g-img/img","opt":"click","sleep":5},
            {"element_by":"xpath","element_code":"/html/body/div[6]/div/div/div/div/div/div/c-wiz/div/div[2]/div[2]/div/div[2]/c-wiz/div/div[3]/div[1]/a/img[1]","opt":"get","data":"src","sleep":15}
         ]
     }

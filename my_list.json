@@ -7689,6 +7689,20 @@
             "country": "",
             "type": "Movie",
             "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU0MDcyNzI4N15BMl5BanBnXkFtZTgwMzA2OTYxMDI@._V1_.jpg"
+        },
+        {
+            "name": "Kingdom.of.the.Planet.of.the.Apes",
+            "year": "2024",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BZGI4NTEwNTAtZDcwMi00MDkxLTg1OGYtNTZmMzE3ZDljNzVlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "name": "Furiosa.A.Mad.Max.Saga",
+            "year": "2024",
+            "country": "",
+            "type": "Movie",
+            "poster_url": "https://m.media-amazon.com/images/M/MV5BMTUxNDc4ZDktZDFhNi00Y2NlLTkxMDctMWVmYTQ0ODJjYWUzXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg"
         }
     ]
 }
