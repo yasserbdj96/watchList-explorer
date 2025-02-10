@@ -31,8 +31,8 @@ jobs:
         run: |
           echo "No build step required"
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2  # This is correct for GitHub Pages
+      #- name: Upload artifact
+      #  uses: actions/upload-pages-artifact@v2  # This is correct for GitHub Pages
 
       - name: Deploy to GitHub Pages
         id: deployment
