@@ -112,7 +112,8 @@
                             img.classList.add("poster-container");
                             img.src = result.url;
                             img.height = 250;
-                      
+                            img.loading = "lazy"; // Set lazy loading
+
                             let BlockTitle = document.createElement("div");
                             BlockTitle.textContent = result.name.replace(/\./g, " ")+" "+result.year;
                             BlockTitle.classList.add("BlockTitle");
