@@ -32,10 +32,10 @@ jobs:
           echo "No build step required"
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Updated to v4
         with:
-          name: github-pages  # Ensure this matches the name expected by deploy-pages
-          path: './eel/src/'  # Change to the correct build output directory
+          name: github-pages
+          path: './eel/src/'
 
       - name: Deploy to GitHub Pages
         id: deployment
