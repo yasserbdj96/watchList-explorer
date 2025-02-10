@@ -31,8 +31,11 @@ jobs:
         run: |
           echo "No build step required"
 
-      #- name: Upload artifact
-      #  uses: actions/upload-pages-artifact@v2  # This is correct for GitHub Pages
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages  # Ensure this matches the name expected by deploy-pages
+          path: './eel/src/'  # Change to the correct build output directory
 
       - name: Deploy to GitHub Pages
         id: deployment
