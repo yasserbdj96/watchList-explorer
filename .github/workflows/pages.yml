@@ -29,10 +29,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Updated to v4
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
+
+      - name: Build the project (if needed)
+        run: |
+          # If you have a build step, add it here.
+          # Example for React or Vue:
+          # npm install && npm run build
+          # If no build is needed, remove this step.
+          echo "No build step required"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
@@ -42,3 +50,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
