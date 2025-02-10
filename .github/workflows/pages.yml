@@ -43,7 +43,7 @@ jobs:
           echo "No build step required"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           path: './eel/src/'  # Ensure this is the correct path to your static site files
 
