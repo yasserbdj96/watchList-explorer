@@ -28,16 +28,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
-      - name: Upload artifact
-        uses: actions/download-artifact@v4
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          # Upload entire repository
-          path: './eel/src/'
+          path: './eel/src/'  # Ensure this is the correct path to your static site files
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
