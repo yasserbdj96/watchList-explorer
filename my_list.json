@@ -7782,6 +7782,34 @@
             "country": "",
             "type": "movie",
             "poster_url": "https://image.tmdb.org/t/p/w500/g4JtvGlQO7DByTI6frUobqvSL3R.jpg"
+        },
+        {
+            "name": "Troll",
+            "year": "2022",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/ulgKdif3ubMACDltr8VZy6fyVjW.jpg"
+        },
+        {
+            "name": "Troll 2",
+            "year": "2025",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/p6xAExLNFbHcLfvSuvLPoM8aqZU.jpg"
+        },
+        {
+            "name": "Nobody",
+            "year": "2021",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg"
+        },
+        {
+            "name": "Nobody 2",
+            "year": "2025",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/xGLoqM9peusKQeuwlSw2Qlhx740.jpg"
         }
     ]
 }
