@@ -7810,6 +7810,20 @@
             "country": "",
             "type": "movie",
             "poster_url": "https://image.tmdb.org/t/p/w500/xGLoqM9peusKQeuwlSw2Qlhx740.jpg"
+        },
+        {
+            "name": "Zootopia 2",
+            "year": "2025",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/bjUWGw0Ao0qVWxagN3VCwBJHVo6.jpg"
+        },
+        {
+            "name": "Kraken",
+            "year": "2025",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/c97Xlokfn4M6ZOQmt7OfXfLDwd5.jpg"
         }
     ]
 }
