@@ -7838,6 +7838,27 @@
             "country": "India",
             "type": "movie",
             "poster_url": "https://image.tmdb.org/t/p/w500/2Yc8Kl2ldPpDzLrG2M5Ddv62FXB.jpg"
+        },
+        {
+            "name": "The Rip",
+            "year": "2026",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg"
+        },
+        {
+            "name": "A Minecraft Movie",
+            "year": "2025",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg"
+        },
+        {
+            "name": "Cocktail",
+            "year": "2012",
+            "country": "india",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/v7jnxqLjarV8LXUXKPU6WKE78CK.jpg"
         }
     ]
 }
