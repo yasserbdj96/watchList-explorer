@@ -990,6 +990,15 @@
             "poster_url": "https://image.tmdb.org/t/p/w500/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
             "ep": "S2E13",
             "condition": "Awaiting"
+        },
+        {
+            "name": "Monarch: Legacy of Monsters",
+            "year": "2023",
+            "country": "",
+            "type": "tv",
+            "poster_url": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+            "ep": "S01E01",
+            "condition": "Watching"
         }
     ],
     "movies": [
@@ -7859,6 +7868,13 @@
             "country": "india",
             "type": "movie",
             "poster_url": "https://image.tmdb.org/t/p/w500/v7jnxqLjarV8LXUXKPU6WKE78CK.jpg"
+        },
+        {
+            "name": "greenland 2 migration",
+            "year": "2026",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg"
         }
     ]
 }
