@@ -7875,6 +7875,36 @@
             "country": "",
             "type": "movie",
             "poster_url": "https://image.tmdb.org/t/p/w500/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg"
+        },
+        {
+            "name": "Mutiny",
+            "year": "2026",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+            "rating": "",
+            "notes": "",
+            "date_added": "2026-10-19T23:39:51.346535"
+        },
+        {
+            "name": "7Kogustaki Mucize",
+            "year": "2019",
+            "country": "turkey",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/bOth4QmNyEkalwahfPCfiXjNh1r.jpg",
+            "rating": "",
+            "notes": "",
+            "date_added": "2026-10-19T23:43:27.894072"
+        },
+        {
+            "name": "I Am Sam",
+            "year": "2001",
+            "country": "",
+            "type": "movie",
+            "poster_url": "https://image.tmdb.org/t/p/w500/3MUXRSyx9gnA2lLSSTGLN8cQQ42.jpg",
+            "rating": "",
+            "notes": "",
+            "date_added": "2026-10-19T23:46:51.546921"
         }
     ]
 }
